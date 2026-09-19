@@ -88,7 +88,7 @@ void main() {
     double monthTwoBalance = monthOneBalance + monthTwoInterest;
 
     System.out.printf("Starting credit card balance: $%.2f%n", startingBalance);
-    System.out.printf("Interest after one month: $%.2f%n", monthOneBalance);
+    System.out.printf("Interest after one month: $%.2f%n", monthOneInterest);
     System.out.printf("Balance after one month: $%.2f%n", monthOneBalance);
     System.out.printf("Interest after two months: $%.2f%n", monthTwoInterest);
     System.out.printf("Balance after two months: $%.2f%n", monthTwoBalance);
